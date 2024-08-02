@@ -15,6 +15,8 @@ env:
     libhashcat*
 
 on:
+  workflow_dispatch:
+
   push:
     branches:
       - master
